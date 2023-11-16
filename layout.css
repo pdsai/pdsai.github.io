@@ -1,0 +1,37 @@
+:root {
+    --primary-pinkish-orange: #fabf9a;
+    --dark-slate-blue: #252b40;
+    --very-dark-blue: #161225;
+    --dark-gray: #373027;
+    --soft-light-gray-blue: #f0f1f6;
+    --bright-coral: #f0544f; /* or your chosen accent color */
+    --vibrant-sky-blue: #009ddc; /* or your chosen accent color */
+    --light-hover: #ffcdc2; /* a lightened version of primary-pinkish-orange */
+    --selected-item-blue: #3a405a; /* a muted version of dark-slate-blue */
+    --text-primary: var(--very-dark-blue);
+    --text-secondary: var(--dark-gray);
+  }
+  
+  body {
+    background-color: var(--soft-light-gray-blue);
+    color: var(--text-primary);
+  }
+  
+  a, button {
+    color: var(--primary-pinkish-orange);
+  }
+  
+  a:hover, button:hover {
+    background-color: var(--light-hover);
+  }
+  
+  header, footer {
+    background-color: var(--dark-slate-blue);
+  }
+  
+  .text-secondary {
+    color: var(--text-secondary);
+  }
+  
+  /* Additional styles for other elements */
+  
